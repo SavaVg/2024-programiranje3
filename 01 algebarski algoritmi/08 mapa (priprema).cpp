@@ -24,10 +24,10 @@ void ispisi(map<int, float>& a){ //opet referenca
 
 int main(){
     /*
-    Mapa je uopseni pojam matematicke funkcije, a to je skup uredjenih parova u kojem razliciti uredjeni parovi imaju razlicitu prvu koordinatu.
-    Npr. u matematickoj notaciji skup  {(-1,1), (-3,9), (3,9)} je mapa, a skup {(-1,1), (-3,9), (-1,9)} to nije jer razlichiti parovi (-1,1) i (-1,9) imaju istu prvu koordinatu.
+    Mapa odgovara matematickom pojmu funkcije (preslikavanja), a to je skup uredjenih parova u kojem razliciti elementi (uredjeni parovi) imaju razlicitu prvu koordinatu.
+    Npr. u matematickoj notaciji skup  {(-1,1), (-3,9), (3,9)} je mapa, a skup {(-1,1), (-3,9), (-1,9)} to nije jer razlichiti elementi (-1,1) i (-1,9) imaju istu prvu koordinatu.
     Prva koordinata se u jeziku C++ naziva kljuc, a druga vrednost pridruzena kljucu.
-    Dakle, u mapi {(-1,1), (-3,9), (3,9)} kljucevi su -1, -3 i 3, a njima odgovarajuce vrednosti su redom 1, 9 i 9.
+    Dakle, u mapi {(-1,1), (-3,9), (3,9)} kljucevi su -1, -3 i 3, a njima pridruzene vrednosti su redom 1, 9 i 9.
     */
     map<int, float> b={{-1,1},{-3,9},{3,9}}; //Ovim je deklarisana mapa ciji su kljucevi tipa int, a vrednosti tipa float. A onda je incijalizovan tako da sadrzi uredjene parove (-1,1), (-3,9), (3,9).
     cout << "elementi mape b su:\n";
