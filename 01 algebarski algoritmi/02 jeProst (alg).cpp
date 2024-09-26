@@ -9,7 +9,7 @@ bool jeProst(llu n){
     if(n==1 || n%2==0) return false;
     llu i=3;
     while(i*i<=n) {
-        if (n%i==0) returne false;
+        if (n%i==0) return false;
         i+=2;
     }
     return true;
