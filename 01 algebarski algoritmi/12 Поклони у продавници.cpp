@@ -12,6 +12,7 @@ llu nzdEuklid(llu a,llu b){
     }
     return a;
 }
+
 llu nzs(llu a,llu b){
     return a*(b/nzdEuklid(a,b));
 }
