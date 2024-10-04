@@ -40,3 +40,16 @@ void nzs(map<llu, int>& fa, map<llu, int>& fb, map<llu, int>& fnzs){
 void ispisi(map<llu, int> m){
     for (auto x: m) cout << x.first << ' '<< x.second << endl;
 }
+
+llu nzdEuklid(llu a,llu b){
+    while(b!=0){
+        llu tmp=a%b;
+        a=b;
+        b=tmp;
+    }
+    return a;
+}
+
+llu nzs(llu a,llu b){
+    return a*(b/nzdEuklid(a,b));
+}
